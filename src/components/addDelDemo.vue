@@ -6,7 +6,7 @@
             <a-input-search
                 placeholder="请输入品牌名"
                 size="large"
-                v-model="inputText"
+                v-model.trim="inputText"
                 style="width: 50%"
             >
                 <!-- 通过slot addonBefore/addonAfter 可将按钮放置输入框前后 -->
